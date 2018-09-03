@@ -7,7 +7,7 @@
 	section .bss
 		temp:				resq 1 ;; saves the input from user
 		array:				resq 1 ;; saves pointer to the array of int 
-		size_of_array:		resq 1 ;; size of array
+		size_of_array:			resq 1 ;; size of array
 
 
 	section .text
